@@ -1,0 +1,29 @@
+//Assignment 1
+//User enters 3 scores, output average
+#include<iostream>
+using namespace std;
+int main ()
+{  
+	int game1;
+	cout<<"Please Enter Score for the first game:\t"<<endl;
+	cin>>game1;
+	cout<<"Game 1 Score is\t"<<game1<<endl;
+	int game2;
+	cout<<"Please Enter Score for the second game:\t"<<endl;
+	cin>>game2;
+	cout<<"Game 2 Score is\t\t"<<game2<<endl;
+	int game3;
+	cout<<"Please Enter Score for the third game:\t"<<endl;
+	cin>>game3;
+	cout<<"Game 3 Score is\t"<<game3<<endl<<endl;
+
+	int totGamescore=game1+game2+game3;
+	double gameNumber=3.0;
+	 float arveScore=totGamescore/gameNumber;
+	 
+	cout<<"The Average score of the 3 Games is:\t"<<arveScore<<endl;
+	return 0;
+}
+
+
+	
